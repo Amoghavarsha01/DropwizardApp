@@ -25,6 +25,7 @@ public class SampleDropwizardApplication extends Application<SampleDropwizardCon
     public void run(final SampleDropwizardConfiguration configuration,
                     final Environment environment) {
         // TODO: implement application
+        console.log("Inside run");
     	SampleDropwizardResource sampleDropwizardResource = new SampleDropwizardResource();
     	environment.jersey().register(sampleDropwizardResource);
     }
