@@ -44,7 +44,7 @@
 
     <build>
         <plugins>
-			<plugin>
+		<plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>cobertura-maven-plugin</artifactId>
             <version>2.5.1</version>
@@ -54,7 +54,7 @@
                     <format>xml</format>
                 </formats>
             </configuration>
-        </plugin>
+			</plugin>
             <plugin>
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>2.4.1</version>
@@ -144,10 +144,23 @@
                     <dependencyDetailsEnabled>false</dependencyDetailsEnabled>
                 </configuration>
             </plugin>
+			
             <plugin>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>2.10.3</version>
             </plugin>
+			
+			<plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>cobertura-maven-plugin</artifactId>
+            <version>2.5.1</version>
+            <configuration>
+                <formats>
+                    <format>html</format>
+                    <format>xml</format>
+                </formats>
+            </configuration>
+			</plugin>
         </plugins>
     </reporting>
 </project>
