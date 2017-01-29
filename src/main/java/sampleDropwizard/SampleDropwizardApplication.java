@@ -3,6 +3,7 @@ package sampleDropwizard;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
+import io.dropwizard.views.ViewBundle;
 import sampleDropwizard.resources.SampleDropwizardResource;
 
 public class SampleDropwizardApplication extends Application<SampleDropwizardConfiguration> {
@@ -19,6 +20,7 @@ public class SampleDropwizardApplication extends Application<SampleDropwizardCon
     @Override
     public void initialize(final Bootstrap<SampleDropwizardConfiguration> bootstrap) {
         // TODO: application initialization
+    	bootstrap.addBundle(new ViewBundle());
     }
 
     @Override

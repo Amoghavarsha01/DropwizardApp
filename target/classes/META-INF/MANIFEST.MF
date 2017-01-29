@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Built-By: varshaa
+Built-By: VARSHAA
 Class-Path: dropwizard-core-1.0.5.jar dropwizard-util-1.0.5.jar jackso
  n-annotations-2.7.8.jar guava-19.0.jar jsr305-3.0.1.jar joda-time-2.9
  .4.jar dropwizard-jackson-1.0.5.jar jackson-core-2.7.8.jar jackson-da
@@ -33,7 +33,8 @@ Class-Path: dropwizard-core-1.0.5.jar dropwizard-util-1.0.5.jar jackso
  cycle-1.0.5.jar metrics-core-3.1.2.jar metrics-jvm-3.1.2.jar metrics-
  servlets-3.1.2.jar metrics-json-3.1.2.jar metrics-healthchecks-3.1.2.
  jar dropwizard-request-logging-1.0.5.jar logback-access-1.1.7.jar arg
- parse4j-0.7.0.jar jetty-setuid-java-1.0.3.jar
+ parse4j-0.7.0.jar jetty-setuid-java-1.0.3.jar dropwizard-views-mustac
+ he-1.0.5.jar dropwizard-views-1.0.5.jar compiler-0.9.4.jar
 Build-Jdk: 1.8.0_111
 Created-By: Maven Integration for Eclipse
 Main-Class: sampleDropwizard.SampleDropwizardApplication
